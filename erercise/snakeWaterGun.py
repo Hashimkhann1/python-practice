@@ -9,6 +9,7 @@ randomOption = random.randint(0,2)
 if (userInput == 'snake' or userInput == 'water' or userInput == 'gun'):
     print('you: ' + userInput)
     print('computer: ' + optionList[randomOption])
+
     if (optionList[randomOption] == userInput):
         print("Try again game is draw")
     elif (userInput == 'gun' and optionList[randomOption] == 'snake'):
